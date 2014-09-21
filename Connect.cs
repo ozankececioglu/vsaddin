@@ -8,11 +8,11 @@ using System.Reflection;
 using System.Text;
 using System.Windows.Forms;
 
-#if DEBUG
-namespace CommonAddInDebug
-#else
-namespace CommonAddIn
-#endif
+//#if DEBUG
+//namespace CommonVsAddInDebug
+//#else
+namespace CommonVsAddIn
+//#endif
 {
 	public class CommandAttribute : Attribute
 	{
@@ -49,8 +49,10 @@ namespace CommonAddIn
 
 		public void OnConnection(object tapplication, ext_ConnectMode connectMode, object addInInst, ref Array custom)
 		{
-			application = (DTE2)tapplication;
-			addIn = (AddIn)addInInst;
+			MessageBox.Show("Lolo");
+
+			application = tapplication as DTE2;
+			addIn = addInInst as AddIn;
 
 			Init();
 		}

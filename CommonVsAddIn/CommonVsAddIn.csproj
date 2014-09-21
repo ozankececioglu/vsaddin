@@ -12,7 +12,7 @@
     <NoStandardLibraries>false</NoStandardLibraries>
     <AssemblyName>CommonVsAddIn</AssemblyName>
     <DeploymentDirectory>.\bin\</DeploymentDirectory>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -24,9 +24,7 @@
     <WarningLevel>4</WarningLevel>
     <IncrementalBuild>false</IncrementalBuild>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>
-    </DocumentationFile>
-    <NoWarn>1591</NoWarn>
+    <DocumentationFile>CommonVsAddIn.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>false</DebugSymbols>
@@ -37,8 +35,7 @@
     <WarningLevel>4</WarningLevel>
     <IncrementalBuild>false</IncrementalBuild>
     <Prefer32Bit>false</Prefer32Bit>
-    <DocumentationFile>
-    </DocumentationFile>
+    <DocumentationFile>CommonVsAddIn.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup>
     <RootNamespace>CommonVsAddIn</RootNamespace>
@@ -61,11 +58,6 @@
     <Compile Include="CommandTools.cs" />
     <Compile Include="Connect.cs">
       <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Properties\Settings.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -125,17 +117,10 @@
     </COMReference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CommonVsAddIn - For Testing.AddIn" />
-    <Content Include="CommonVsAddIn.AddIn">
-      <SubType>Designer</SubType>
+    <Content Include="..\..\..\Documents\Visual Studio 2012\Addins\CommonVsAddIn - For Testing.AddIn">
+      <Link>CommonVsAddIn - For Testing.AddIn</Link>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-    <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
-    </None>
+    <Content Include="CommonVsAddIn.AddIn" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSHARP.Targets" />
   <PropertyGroup>

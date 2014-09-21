@@ -5,14 +5,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using System.Windows.Forms;
 using System.Text.RegularExpressions;
 
-#if DEBUG
-namespace CommonAddInDebug
-#else
-namespace CommonAddIn
-#endif
+//#if DEBUG
+//namespace CommonVsAddInDebug
+//#else
+namespace CommonVsAddIn
+//#endif
 {
 	static class CommonTools
 	{
