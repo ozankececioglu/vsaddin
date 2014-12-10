@@ -1,3 +1,5 @@
 *.suo
 CommonVsAddIn/bin
 CommonVsAddIn/obj
+Main/bin
+Main/obj
