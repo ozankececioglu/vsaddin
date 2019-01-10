@@ -1,0 +1,14 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "window.zoomLevel": 0,
+    "workbench.editor.enablePreview": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "breadcrumbs.enabled": true,
+    "search.usePCRE2": true,
+    "editor.fontSize": 13,
+    "editor.mouseWheelScrollSensitivity": 2,
+    "csharp.referencesCodeLens.enabled": false,
+    "workbench.colorTheme": "Default Light+",
+    "cmake.configureOnOpen": false
+}
