@@ -10,5 +10,16 @@
     "editor.mouseWheelScrollSensitivity": 2,
     "csharp.referencesCodeLens.enabled": false,
     "workbench.colorTheme": "Default Light+",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "explorer.confirmDelete": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "files.associations": {
+        "*.m": "plaintext",
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.activityBar.visible": true,
+    "editor.renderWhitespace": "all",
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "gitlens.menus": false
 }

@@ -17,36 +17,6 @@
         "command": "workbench.action.navigateForward"
     },
     {
-        "key": "alt+shift+left",
-        "command": "extension.extendCamelLeftCommand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+shift+right",
-        "command": "extension.extendCamelRightCommand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+delete",
-        "command": "extension.deleteCamelRightCommand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+backspace",
-        "command": "extension.deleteCamelLeftCommand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+right",
-        "command": "extension.moveCamelRightCommand",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+left",
-        "command": "extension.moveCamelLeftCommand",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "ctrl+right",
         "command": "cursorWordEndRight",
         "when": "textInputFocus"
@@ -107,4 +77,123 @@
         "command": "editor.action.formatDocument",
         "when": "editorTextFocus && !editorReadonly"
     },
+    {
+        "key": "ctrl+alt+r",
+        "command": "references-view.find",
+        "when": "editorHasReferenceProvider"
+    },
+    {
+        "key": "alt+t",
+        "command": "workbench.action.gotoSymbol"
+    },
+    {
+        "key": "Escape",
+        "command": "workbench.action.focusActiveEditorGroup",
+        "when": "explorerViewletFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+k",
+        "command": "bookmarks.listFromAllFiles"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "editor.action.joinLines"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.navigateBack"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.navigateForward"
+    },
+    {
+        "key": "alt+delete",
+        "command": "maptz.camelcasenavigation.deleteCamelRightCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-maptz.camelcasenavigation.deleteCamelRightCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+backspace",
+        "command": "maptz.camelcasenavigation.deleteCamelLeftCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-maptz.camelcasenavigation.deleteCamelLeftCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+left",
+        "command": "maptz.camelcasenavigation.extendCamelLeftCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+left",
+        "command": "-maptz.camelcasenavigation.extendCamelLeftCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+right",
+        "command": "maptz.camelcasenavigation.extendCamelRightCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+right",
+        "command": "-maptz.camelcasenavigation.extendCamelRightCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.terminal.focusPreviousPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "-gitlens.key.alt+left",
+        "when": "gitlens:key:alt+left"
+    },
+    {
+        "key": "alt+left",
+        "command": "-workbench.action.quickInputBack",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "alt+left",
+        "command": "maptz.camelcasenavigation.moveCamelLeftCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+left",
+        "command": "-maptz.camelcasenavigation.moveCamelLeftCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-workbench.action.terminal.focusNextPane",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "-gitlens.key.alt+right",
+        "when": "gitlens:key:alt+right"
+    },
+    {
+        "key": "alt+right",
+        "command": "maptz.camelcasenavigation.moveCamelRightCommand",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+right",
+        "command": "-maptz.camelcasenavigation.moveCamelRightCommand",
+        "when": "editorTextFocus"
+    }
 ]
