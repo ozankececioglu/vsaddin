@@ -1,25 +1,23 @@
 {
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
     "window.zoomLevel": 0,
     "workbench.editor.enablePreview": false,
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "all",
     "breadcrumbs.enabled": true,
-    "search.usePCRE2": true,
     "editor.fontSize": 13,
     "editor.mouseWheelScrollSensitivity": 2,
-    "csharp.referencesCodeLens.enabled": false,
     "workbench.colorTheme": "Default Light+",
-    "cmake.configureOnOpen": false,
     "explorer.confirmDelete": false,
-    "kite.showWelcomeNotificationOnStartup": false,
     "files.associations": {
         "*.m": "plaintext",
+        "*.go": "go"
     },
     "diffEditor.ignoreTrimWhitespace": false,
     "workbench.activityBar.visible": true,
     "editor.renderWhitespace": "all",
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
-    "gitlens.menus": false
+    "gitlens.menus": false,
+    "codespaces.accountProvider": "Uninitialized"
 }
