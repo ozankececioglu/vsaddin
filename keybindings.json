@@ -195,5 +195,21 @@
         "key": "ctrl+right",
         "command": "-maptz.camelcasenavigation.moveCamelRightCommand",
         "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+pageup",
+        "command": "workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+left",
+        "command": "-workbench.action.focusLeftGroup"
+    },
+    {
+        "key": "ctrl+alt+pagedown",
+        "command": "workbench.action.focusRightGroup"
+    },
+    {
+        "key": "ctrl+k ctrl+right",
+        "command": "-workbench.action.focusRightGroup"
     }
 ]

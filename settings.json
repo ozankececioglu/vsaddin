@@ -19,5 +19,8 @@
     "go.formatTool": "goimports",
     "go.useLanguageServer": true,
     "gitlens.menus": false,
-    "codespaces.accountProvider": "Uninitialized"
+    "codespaces.accountProvider": "Uninitialized",
+    "workbench.tree.indent": 20,
+    "workbench.tree.renderIndentGuides": "always",
+    "git.autofetch": true
 }
