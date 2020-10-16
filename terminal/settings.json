@@ -100,8 +100,8 @@
         // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
         // To learn more about selection, visit https://aka.ms/terminal-selection
-        { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
-        { "command": "paste", "keys": "ctrl+v" },
+        { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+shift+c" },
+        { "command": "paste", "keys": "ctrl+shift+v" },
 
         // Press Ctrl+Shift+F to open the search box
         { "command": "find", "keys": "ctrl+f" },
@@ -112,8 +112,8 @@
         // To learn more about panes, visit https://aka.ms/terminal-panes
         { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" },
 
-        { "command": "newTab", "keys": "ctrl+t" },
-        { "command": { "action": "closeTab"}, "keys": "ctrl+w" },
+        { "command": "newTab", "keys": "ctrl+shift+t" },
+        { "command": { "action": "closeTab"}, "keys": "ctrl+shift+w" },
         { "command": "nextTab", "keys": "ctrl+tab" },
         { "command": "nextTab", "keys": "ctrl+pagedown" },
         { "command": "prevTab", "keys": "ctrl+shift+tab" },
