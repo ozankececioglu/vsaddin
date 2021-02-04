@@ -28,51 +28,51 @@ Run, c:\Users\nirx
 WinActivate
 Return
 
-!]::
+!u::
 Send, ü
 Return
 
-!+]::
+!+u::
 Send, Ü
 Return
 
-![::
+!g::
 Send, ğ
 Return
 
-!+[::
+!+g::
 Send, Ğ
 Return
 
-!;::
+!s::
 Send, ş
 Return
 
-!+;::
+!+s::
 Send, Ş
 Return
 
-!'::
+!i::
 Send, ı
 Return
 
-!+'::
+!+i::
 Send, İ
 Return
 
-!.::
+!c::
 Send, ç
 Return
 
-!+.:: 
+!+c:: 
 Send, Ç
 Return
 
-!,::
+!o::
 Send, ö
 Return
 
-!+,::
+!+o::
 Send, Ö
 Return
 
@@ -84,12 +84,8 @@ Return
 Send, Ä
 Return
 
-
-
-
-
-
-
-
+!s::
+Send, ß
+Return
 
 
