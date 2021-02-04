@@ -84,8 +84,5 @@ Return
 Send, Ä
 Return
 
-!s::
-Send, ß
-Return
 
 
