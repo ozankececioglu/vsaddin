@@ -84,5 +84,14 @@ Return
 Send, Ä
 Return
 
+#F11::
+SoundSet -3
+Return
+
+#F12::
+SoundSet +3
+Return
 
 
+F1::
+Return
