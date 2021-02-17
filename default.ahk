@@ -33,70 +33,54 @@ Run, c:\Users\nirx
 WinActivate
 Return
 
->^u::
-Send, ü
-Return
+>!u::Send, ü
+>!+u::Send, Ü
 
->^+u::
-Send, Ü
-Return
+>!g::Send, ğ
+>!+g::Send, Ğ
 
->^g::
-Send, ğ
-Return
+>!s::Send, ş
+>!+s::Send, Ş
+>!>^s::Send, ß
 
->^+g::
-Send, Ğ
-Return
+>!i::Send, ı
+>!+i::Send, İ
 
->^s::
-Send, ş
-Return
+>!c::Send, ç
+>!+c:: Send, Ç
 
->^+s::
-Send, Ş
-Return
+>!o::Send, ö
+>!+o::Send, Ö
 
->^i::
-Send, ı
-Return
+>!a::Send, ä
+>!+a::Send, Ä
 
->^+i::
-Send, İ
-Return
-
->^c::
-Send, ç
-Return
-
->^+c:: 
-Send, Ç
-Return
-
->^o::
-Send, ö
-Return
-
->^+o::
-Send, Ö
-Return
-
->^a::
-Send, ä
-Return
-
->^+a::
-Send, Ä
-Return
-
-#F11::
-SoundSet -3
-Return
-
-#F12::
-SoundSet +3
-Return
+>!q::Return
+>!w::Return
+>!e::Return
+>!r::Return
+>!t::Return
+>!y::Return
+>!p::Return
+>!d::Return
+>!f::Return
+>!h::Return
+>!j::Return
+>!k::Return
+>!l::Return
+>!z::Return
+>!x::Return
+>!v::Return
+>!b::Return
+>!n::Return
+>!m::Return
 
 
-F1::
-Return
+#F9::Media_Play_Pause
+#F10::Volume_Mute
+#F11::SoundSet -3
+#F12::SoundSet +3
+
+RAlt::Return
+F1::Return
+
