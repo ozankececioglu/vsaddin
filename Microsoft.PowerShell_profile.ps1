@@ -32,10 +32,12 @@ $nirsite_py = "$nirsite\python\nirsite"
 $nirstar = "C:\NIRx"
 
 if ($IsWindows) {
-    $nirxData = "~\Documents\NIRx"
-    $nuxLog = "$nirxdata\Logs\log.txt"
-    $nirxLocal = "~\AppData\Local\NIRx\"
-    $nirxSetups = "~\AppData\Local\Programs\NIRx"
+    $nirxDocs = "$home\Documents\NIRx"
+    $nuxData = "$nirxDocs\Data"
+    $nuxConfigs = "$nirxDocs\Configurations"
+    $nuxLog = "$nuxdata\Logs\log.txt"
+    $nirxLocal = "$home\AppData\Local\NIRx\"
+    $nirxSetups = "$home\AppData\Local\Programs\NIRx"
     $nirstarData = "C:\NIRx\Data"
 }
 elseif ($IsLinux) {
